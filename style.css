@@ -49,11 +49,27 @@
     justify-content:flex-end;
 }
 
-p.messageStatus{
+.ownMessage .messageStatusDiv{
     align-self: flex-end;
+    flex-direction: column;
     padding-right: 2%;
+}
+
+.elseMessage .messageStatusDiv{
+    align-self: flex-end;
+    flex-direction: row;
+    padding-right: 2%;
+    display: flex;
 }
 
 p.text{
     padding-left: 2.5%;
+}
+p.check + p.check{
+    position: absolute;
+    padding-left: 63px;
+}
+p.messageStatus{
+    display: flex;
+    align-self: flex-end;
 }

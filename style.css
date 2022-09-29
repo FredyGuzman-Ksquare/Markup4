@@ -53,3 +53,7 @@ p.messageStatus{
     align-self: flex-end;
     padding-right: 2%;
 }
+
+p.text{
+    padding-left: 2.5%;
+}

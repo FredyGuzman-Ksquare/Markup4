@@ -1,0 +1,55 @@
+.mainContainer{
+    margin-left: 2%;
+    margin-right: 2%;
+    display: flex;
+    gap:20px;
+    flex-flow: wrap;
+    justify-content: flex-start;
+    flex-direction: column;
+    height: 10%;
+}
+.chatContainer{
+    margin: 15% 20% 30% 30%;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+}
+.imgContainer{
+    width: 10%;
+    height: 20%;
+}
+.elseMessage{
+    display: flex;
+    flex-wrap: wrap;
+    flex-flow: row;
+    gap: 1%;
+}
+.ownMessage{
+    margin-top: 5%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-flow: row;
+    gap: 5%;
+    align-self: flex-end;
+}
+.profileImg{
+    width: 100%;
+    border-radius: 50%;
+}
+.elseMessage .message{
+    background-color: #f1ffef;
+    display: flex;
+    flex-direction: column;
+}
+
+.ownMessage .message{
+    background-color: #eff3f9;
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-end;
+}
+
+p.messageStatus{
+    align-self: flex-end;
+    padding-right: 2%;
+}
